@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B361230D290461650091F96B /* oooof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B361230B290461650091F96B /* oooof.m4a */; };
+		B361230E290461650091F96B /* amogus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B361230C290461650091F96B /* amogus.m4a */; };
 		B3CB403929043753005792CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB403829043753005792CC /* AppDelegate.swift */; };
 		B3CB403B29043753005792CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB403A29043753005792CC /* SceneDelegate.swift */; };
 		B3CB403D29043753005792CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB403C29043753005792CC /* ViewController.swift */; };
 		B3CB404029043753005792CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CB403E29043753005792CC /* Main.storyboard */; };
 		B3CB404229043756005792CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CB404129043756005792CC /* Assets.xcassets */; };
 		B3CB404529043756005792CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CB404329043756005792CC /* LaunchScreen.storyboard */; };
-		B3EB47F629043E0F00E18FE6 /* amogus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3EB47F529043E0F00E18FE6 /* amogus.m4a */; };
-		B3EB47F829043F1700E18FE6 /* oooof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3EB47F729043F1700E18FE6 /* oooof.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B361230B290461650091F96B /* oooof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = oooof.m4a; sourceTree = "<group>"; };
+		B361230C290461650091F96B /* amogus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = amogus.m4a; sourceTree = "<group>"; };
 		B3CB403529043753005792CC /* Amogus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amogus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CB403829043753005792CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CB403A29043753005792CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		B3CB404129043756005792CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3CB404429043756005792CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3CB404629043756005792CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3EB47F529043E0F00E18FE6 /* amogus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = amogus.m4a; path = ../../../../../Downloads/amogus.m4a; sourceTree = "<group>"; };
-		B3EB47F729043F1700E18FE6 /* oooof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = oooof.m4a; path = ../../../../../Downloads/oooof.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				B3CB404129043756005792CC /* Assets.xcassets */,
 				B3CB404329043756005792CC /* LaunchScreen.storyboard */,
 				B3CB404629043756005792CC /* Info.plist */,
-				B3EB47F529043E0F00E18FE6 /* amogus.m4a */,
-				B3EB47F729043F1700E18FE6 /* oooof.m4a */,
+				B361230C290461650091F96B /* amogus.m4a */,
+				B361230B290461650091F96B /* oooof.m4a */,
 			);
 			path = Amogus;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CB404529043756005792CC /* LaunchScreen.storyboard in Resources */,
-				B3EB47F829043F1700E18FE6 /* oooof.m4a in Resources */,
+				B361230D290461650091F96B /* oooof.m4a in Resources */,
 				B3CB404229043756005792CC /* Assets.xcassets in Resources */,
-				B3EB47F629043E0F00E18FE6 /* amogus.m4a in Resources */,
+				B361230E290461650091F96B /* amogus.m4a in Resources */,
 				B3CB404029043753005792CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
