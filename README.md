@@ -13,8 +13,8 @@
 - Inserting sound files
 
 # Note
-- The Amogus meme asset is not mine and also the meme sounds amogus and ooof arent mine either, they were used in the project for educational (to learn how to code and have fun along the way) purposes only.
-As a placeholder and/or meme. They belong to their respectible owners whoever they are in the ocean on ***the internet***.
+- The Amogus meme asset is not mine and also the meme sounds amogus and ooof arent mine either, they were used in the project for educational purposes only (to learn how to code and have fun along the way) .
+As a placeholder and/or meme. They belong to their respectable owners whoever they are in the ocean of information so called ***the internet***.
 
 <!-- LICENSE -->
 ## Code License
