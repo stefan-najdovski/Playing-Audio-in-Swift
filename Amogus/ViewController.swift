@@ -3,7 +3,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var player:AVAudioPlayer?
+    var player:AVAudioPlayer!
     
     @IBAction func amogusButton(_ sender: UIButton) {
         playSound(sound: "amogus")
@@ -21,21 +21,11 @@ class ViewController: UIViewController {
     }
     
     
-    func playSound(sound:String) {
-        guard let url = Bundle.main.url(forResource: sound, withExtension: "m4a") else { return }
-        
-        do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-            try AVAudioSession.sharedInstance().setActive(true)
-            
-            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-            guard let player = player else { return }
-            
-            player.play()
-            
-        } catch let error {
-            print(error.localizedDescription)
-        }
+    func playSound(sound:String) {  
+
+        let url = Bundle.main.url(forResource: sound, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
     }
 }
 
